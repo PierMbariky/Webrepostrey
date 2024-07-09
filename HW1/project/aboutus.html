@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Playwise</title>
+        <link rel="stylesheet" href="/style.css" />        
+    </head>
+    <body class="dark:bg-gray-800 dark:text-white flex flex-col min-h-screen">
+      <nav class="flex justify-between bg-gray-800 h-16 dark:bg-gray-800">
+        <div class="flex items-center pl-4">
+            <ul class="flex items-center">
+                <li><a href="index.html" class="text-lg text-white font-bold">Playwise</a></li>
+                <li class="ml-2">
+                    <a href="aboutus.html" class="text-white hover:text-gray-200 transition duration-300 ease-in-out">About us</a>
+                </li>
+                <li class="ml-2">
+                    <a href="contactus.html" class="text-white hover:text-gray-200 transition duration-300 ease-in-out">Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex items-center">
+            <input type="text" class="bg-gray-200 py-2 px-4 rounded-md ml-2" placeholder="Enter code">
+            <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-md ml-2">Join by code</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md ml-2">Log in</button>
+            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md ml-2">Sign up</button>
+            <button class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-md ml-2" id="theme-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12H9m3.293 4.293l-.707.707M11 16l2-2m0 0l2.293-2.293M22 4l-4.293 4.293" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+        <header class="bg-white dark:bg-gray-800 py-4">
+            <div class="container mx-auto p-4">
+                <h1 class="text-3xl font-bold text-gray-800 dark:text-white">About Us</h1>
+            </div>
+        </header>
+        <main class="container mx-auto p-4">
+            <section class="bg-white dark:bg-gray-800 rounded shadow-md p-4 mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Welcome to PlayWise</h2>
+                <p class="text-gray-600 dark:text-gray-400">Your premier gamified learning platform designed to revolutionize the way you learn!</p>
+            </section>
+            <section class="bg-white dark:bg-gray-800 rounded shadow-md p-4 mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Meet our team</h2>
+                <ul class="list-none mb-4">
+                    <li class="flex items-center mb-2">
+                        <img src="pier-mbariky.jpg" alt="Pier Mbariky" class="w-12 h-12 rounded-full mr-2">
+                        <span class="text-gray-600 dark:text-gray-400">Pier Mbariky</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <img src="redan-ganim.jpg" alt="Redan Ganim" class="w-12 h-12 rounded-full mr-2">
+                        <span class="text-gray-600 dark:text-gray-400">Redan Ganim</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <img src="nadeen-halaby.jpg" alt="Nadeen Halaby" class="w-12 h-12 rounded-full mr-2">
+                        <span class="text-gray-600 dark:text-gray-400">Nadeen Halaby</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <img src="asaad-sajim.jpg" alt="Asaad Sajim" class="w-12 h-12 rounded-full mr-2">
+                        <span class="text-gray-600 dark:text-gray-400">Asaad Sajim</span>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <img src="joul-hourany.jpg" alt="Joul Hourany" class="w-12 h-12 rounded-full mr-2">
+                        <span class="text-gray-600 dark:text-gray-400">Joul Hourany</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="bg-white dark:bg-gray-800 rounded shadow-md p-4 mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Our Mission</h2>
+                <p class="text-gray-600 dark:text-gray-400">At PlayWise, we believe that learning should be an adventure, not a chore. By combining the principles of gaming with educational content, we create an immersive experience that motivates learners to achieve their goals and master new skills.</p>
+                <p class="text-gray-600 dark:text-gray-400">Whether you are a student looking to enhance your knowledge, a teacher seeking innovative tools to engage your students, or a lifelong learner eager to explore new topics, PlayWise has something for you.</p>
+            </section>
+            <section class="bg-white dark:bg-gray-800 rounded shadow-md p-4 mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Join the Journey</h2>
+                <p class="text-gray-600 dark:text-gray-400">Join us on this exciting journey to transform education and discover the joy of learning through play!</p>
+                <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Get Started</button>
+            </section>
+        </main>
+        <script src="main.js" type="module"></script>
+    </body>
+</html>
